@@ -17,6 +17,4 @@ def get_top_movies():
 
     return top_movies
 
-top_movies = get_top_movies()
-df = pd.DataFrame(top_movies)
-df.to_excel("top_movies.xlsx", index=False)
+
